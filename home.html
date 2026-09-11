@@ -40,6 +40,10 @@
             margin: 30px;
             padding: 30px;
         }
+        .flex-container {
+        display: flex;       
+        gap: 100px;           
+        }
     </style>
 </head>
 
@@ -51,7 +55,7 @@
     </header>
 
     <!--TODO: Add a reusable bar for navigation-->
-    <section id="Home" style="border: 3px dotted #233557; padding: 15px; margin: 10px; background-color: #394a64;">
+    <section id="Home" style="border: 3px dotted #233557; padding: 15px; margin: 10px; background-color: #394a62;">
         <h1 style="text-align: center;">
             Storefront
         </h1>
@@ -74,9 +78,10 @@
 
 
     </section>
-    <footer id="footer" style="border: 3px dotted #233557; padding: 15px; margin: 10px; background-color: #394a64; border-radius: 25px;">
-        <h1><a href="about.html" target="_blank">About Us</a> <a href="#" target="_self">Back to Top</a></h1>
+    <div class="flex-container"><footer id="footer" style="border: 3px dotted #233557; padding: 15px; margin: 10px; background-color: #394a64; border-radius: 25px;"><div class="flex-container">
+        <div><h1><a href="about.html" target="_blank">About Us</a></h1></div> <div><h1><a href="#" target="_self">Back to Top</a></h1></div></div>
     </footer>
+    
 </body>
 
 </html>
