@@ -1,5 +1,6 @@
 img[name='karmalist-logo'] {
         border-radius: 0px;
+        border: none;
         width: 250px;
         height: 250px;
         }
@@ -44,4 +45,24 @@ img[name='karmalist-logo'] {
             margin: 10px;
             padding: 15px;
             border: 3px dotted #233557;
+        }
+        section[name='top'] {
+            background-color: #425675;;
+        }
+
+        body {
+            background-color: #425675;
+        }
+        header {
+            border: 3px dotted #233557;
+            padding: 15px;
+            margin: 10px;
+            background-color: #394a64;
+            border-radius: 25px;
+        }
+        section[id='Home'] {
+            border: 3px dotted #233557;
+            padding: 15px;
+            margin: 10px;
+            background-color: #394a62;
         }
