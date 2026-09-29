@@ -1,0 +1,22 @@
+h1 {
+		color: #52c784;
+		padding: 30px;
+		margin: 30px;
+		}
+p  {
+		color: #51c784;
+		margin: 30px;
+	    }
+
+body {
+        background-color: #425675;
+        }
+
+img {
+        border-radius: 10px;
+        }
+img[name='karmalist-logo'] {
+        border-radius: 0px;
+        width: 250px;
+        height: 250px;
+        }
