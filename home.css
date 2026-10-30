@@ -40,6 +40,8 @@ img[name='karmalist-logo'] {
         gap: 100px;           
         }
         section[name='listing'] {
+            display: inline-block;
+            max-width: 100%;
             background-color: #394a64;
             border-radius: 25px;
             margin: 10px;
